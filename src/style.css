@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+  color: rgb(186, 238, 234);
+  height: 100%;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/119/349/original/alvan-nee-ZCHj_2lJP00-unsplash.jpg?1710608537);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: 120px auto;
+  padding: 30px;
+  max-width: 600px;
+}
+header {
+  margin-bottom: 30px;
+}
+h1 {
+  font-weight: 800;
+  text-align: center;
+  color: #544a37;
+}
+form {
+  padding: 30px;
+  background-color: #bb8278;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.instructions {
+  width: 80%;
+  border-radius: 30px;
+  border-style: none;
+  padding: 10px;
+}
+
+.submit-button {
+  background-color: rgb(186, 238, 234);
+  color: #bb8278;
+  border-style: none;
+  border-radius: 30px;
+  padding: 10px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: rgba(186, 238, 234, 0.4);
+  color: rgb(186, 238, 234);
+}
+.poem {
+  font-family: "Borel", cursive;
+  font-weight: 400;
+  font-style: normal;
+  padding: 30px;
+  padding-bottom: 60px;
+  background-color: #bb8278;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 10px;
+  display: flex;
+  border-left: 3px solid #544a37;
+}
+
+footer {
+  text-align: center;
+  color: #544a37;
+}
+
+a {
+  color: #bb8278;
+}
